@@ -1,0 +1,17 @@
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    padding: 30px;
+    font-weight: bold;
+    background-color: white;
+    text-align: center;
+
+    
+}
+body{
+    background-image: url("../sobremi/img.2/img.sobremi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+

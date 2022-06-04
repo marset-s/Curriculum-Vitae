@@ -25,6 +25,17 @@ img {
    
 }
 
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+
+a:hover{
+    
+    color: wheat;
+}
+
 .sobremi {
    font-size: 30px;
    margin-left: 100px;
@@ -63,6 +74,8 @@ img {
    font-size: 20px;
    color: black;
    justify-content: center;
+   transition: .5s;
+ 
 
    }
 
@@ -71,3 +84,7 @@ img {
     
 }
 
+div a {
+    display: flex;
+    font-size: 30px;
+}

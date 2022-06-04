@@ -8,23 +8,24 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+/* Estilos del banner */
 header {
     background-image: url(img/code.avif);
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    
 }
+
+/* Estilos foto personal */
 
 img {
     height: 300px;
     border-radius: 50%;
     margin-top: 50px;
-   
-   
 }
 
+/* Estilos menu de navagacion */
 nav{
     display: flex;
     justify-content: center;
@@ -42,12 +43,29 @@ a:hover{
    color: white;
    font-style: normal;
    padding: 0.1em;
-  
-   
-    
+}
+
+a {
+    font-size: 20px;
+    color: black;
+    justify-content: center;
+    transition: .5s;
+  }
+
+  div a {
+    display: flex;
+    font-size: 30px;
+}
+
+/* Estilos titulo principal */
+
+h1 {
+    text-align: center;
+    padding: 2px 2px;
 }
  
- 
+ /* Estilos titulos en general */
+
  .titulos {
      background-color: #b2f6b1;
      color: rgb(65, 64, 64);
@@ -56,35 +74,19 @@ a:hover{
     padding-bottom: 0.1px;
 
  }
- 
+  
+ /* Estilos footer */
+  
  .fondo {
      text-align: center;
      background-color: #8eed8a;
      color: white;
  }
  
- h1 {
-     text-align: center;
-     padding: 2px 2px;
- }
- 
- 
+ /* Estilos logos redes */
 
- a {
-   font-size: 20px;
-   color: black;
-   justify-content: center;
-   transition: .5s;
- 
-
-   }
-
- .logo {
+.logo {
     height: 25px;
     
 }
 
-div a {
-    display: flex;
-    font-size: 30px;
-}
